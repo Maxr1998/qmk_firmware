@@ -17,8 +17,8 @@
         "leader": true
     },
     "usb": {
-        "vid": "0xFEED",
-        "pid": "0x6060",
+        "vid": "0x4D52",
+        "pid": "0x4958",
         "device_version": "0.0.1"
     },
     "layouts": {
