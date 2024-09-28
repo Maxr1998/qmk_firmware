@@ -2,6 +2,8 @@
 
 #include "quantum.h"
 
+#define XXX KC_NO
+
 #define LAYOUT( \
     K00, K01, K02, K03, \
     K10, K11, K12, K13, \
@@ -12,7 +14,7 @@
 { \
   { K00, K01, K02, K03 }, \
   { K10, K11, K12, K13 }, \
-  { K20, K21, K22, K22 }, \
+  { K20, K21, K22, XXX }, \
   { K30, K31, K32, K33 }, \
-  { K40, K40, K42, K42 }  \
+  { K40, XXX, K42, XXX }  \
 }

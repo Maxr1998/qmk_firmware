@@ -39,12 +39,15 @@
  *                  ROW2COL = ROW = Anode (+), COL = Cathode (-, marked on diode)
  *
 */
-#define MATRIX_COL_PINS { D0, D4, F7, F6 }
+#define MATRIX_COL_PINS { D0, D4, F6, F5 }
 #define MATRIX_ROW_PINS { D1, C6, D7, E6, B4 }
 #define UNUSED_PINS
 
 /* COL2ROW or ROW2COL */
 #define DIODE_DIRECTION ROW2COL
+
+/* Enable to obtain numpad state */
+#define RGBLIGHT_LAYERS
 
 /* Debounce reduces chatter (unintended double-presses) */
 #define DEBOUNCE 5
